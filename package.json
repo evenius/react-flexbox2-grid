@@ -1,10 +1,11 @@
 {
   "name": "react-flexbox2-grid",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A set of React components implementing flexboxgrid2",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
   },
   "author": {
     "email": "jonathan@evenius.io",
@@ -14,6 +15,9 @@
     "type": "git",
     "url": "git://github.com/evenius/react-flexbox2-grid.git"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "flexbox",
     "flexbox2",
@@ -31,6 +35,15 @@
   "homepage": "https://github.com/evenius/react-flexbox2-grid#readme",
   "dependencies": {
     "classnames": "^2.2.6",
+    "flexboxgrid2": "^7.2.1",
     "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-syntax-export-default-from": "^7.2.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0"
   }
 }

@@ -52,7 +52,7 @@ TODO
 
 - [ ] Actually add how this works to documentation
 
-- [ ] Add full test-suite
+- [ ] Add full test-suite w/ CircleCI
 
 License
 -------

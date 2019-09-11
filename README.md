@@ -50,8 +50,9 @@ _Original_ Contributors
 TODO
 -----
 
-[] Actually add how this works to documentation
-[] Add full test-suite
+- [ ] Actually add how this works to documentation
+
+- [ ] Add full test-suite
 
 License
 -------

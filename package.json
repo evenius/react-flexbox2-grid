@@ -1,0 +1,36 @@
+{
+  "name": "react-flexbox2-grid",
+  "version": "1.0.0",
+  "description": "A set of React components implementing flexboxgrid2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "email": "jonathan@evenius.io",
+    "name": "Jonathan Gill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evenius/react-flexbox2-grid.git"
+  },
+  "keywords": [
+    "flexbox",
+    "flexbox2",
+    "grid",
+    "react",
+    "react-component"
+  ],
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evenius/react-flexbox2-grid/issues"
+  },
+  "homepage": "https://github.com/evenius/react-flexbox2-grid#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2"
+  }
+}
